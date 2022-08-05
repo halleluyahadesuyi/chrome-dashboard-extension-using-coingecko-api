@@ -31,9 +31,9 @@ fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
 
         // display values of coins on the page
         document.getElementById("crypto").innerHTML += `
-            <p>CP 🎯: $${data.market_data.current_price.usd}</p>
-            <p>HP 👆: $${data.market_data.high_24h.usd}</p>
-            <p>LP 👇: $${data.market_data.low_24h.usd}</p>
+            <p>CurrentPrice 🎯: $${data.market_data.current_price.usd}</p>
+            <p>HighPrice 👆: $${data.market_data.high_24h.usd}</p>
+            <p>LowPrice 👇: $${data.market_data.low_24h.usd}</p>
         `
     })
     .catch(err => console.error(err))
