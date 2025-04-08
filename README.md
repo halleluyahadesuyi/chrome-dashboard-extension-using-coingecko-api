@@ -1,7 +1,51 @@
-# Chrome-Dashboard-Extension-
-This is a Chrome extension used to display a dashboard containing random background photos, coin values, and some weather information, based on one's current location.
+# 🌐 Chrome Dashboard Extension
 
-Installation:
-Navigate to "More Tools", then "Extensions" on Chrome, and turn on the "Developer mode" slider. Click on "Load unpacked" and select the forked repo to load the extension on a Chrome page. 
+A Chrome extension that displays a personalized dashboard with:
 
-Note: Since this app is location-based, be sure to have your device's location visible before installation.
+- Dynamic background images  
+- Live cryptocurrency prices via [CoinGecko API](https://www.coingecko.com/en/api)  
+- Real-time local weather data
+
+---
+
+## 🚀 Features
+
+- Fresh background photos on every load  
+- Live crypto prices (Bitcoin, Ethereum, etc.)  
+- Real-time weather using browser geolocation  
+- Clean and responsive design  
+
+---
+
+## 🔧 Installation
+
+1. Clone or download this repository.  
+2. In Chrome, go to `chrome://extensions/`  
+3. Enable **Developer Mode**  
+4. Click **Load Unpacked**  
+5. Select the project folder
+
+> 📍 Location permission is required for weather data.
+
+---
+
+## 🔗 Live Demo
+
+Since this is a **Chrome Extension**, it is not feasible for it to be hosted like a regular web app.  
+To see it in action, follow the installation steps above and use it locally.
+
+---
+
+## 📁 Tech Stack
+
+- JavaScript 
+- HTML  
+- CSS   
+- [CoinGecko API](https://www.coingecko.com/en/api)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+> Created to explore Chrome extension development and API integration.
