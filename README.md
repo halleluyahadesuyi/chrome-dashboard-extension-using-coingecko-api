@@ -8,7 +8,7 @@ A Chrome extension that displays a personalized dashboard with:
 
 ---
 
-## 🚀 Features
+## Features
 
 - Fresh background photos on every load  
 - Live crypto prices (Bitcoin, Ethereum, etc.)  
@@ -17,7 +17,7 @@ A Chrome extension that displays a personalized dashboard with:
 
 ---
 
-## 🔧 Installation
+## Installation
 
 1. Clone or download this repository.  
 2. In Chrome, go to `chrome://extensions/`  
@@ -36,7 +36,7 @@ To see it in action, follow the installation steps above and use it locally.
 
 ---
 
-## 📁 Tech Stack
+## Tech Stack
 
 - JavaScript 
 - HTML  
